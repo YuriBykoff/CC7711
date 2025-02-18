@@ -145,8 +145,8 @@
 ```
 
 ## 2. Figura com o Diálogo Proposto
-(Imagem)[lab1-2section.png]
+![Imagem](https://github.com/YuriBykoff/CC7711/blob/main/figs/lab1-2section.png)
 
 ## 3. Link para um vídeo de até 2 minutos
 
-(Video)[https://www.youtube.com/watch?v=t2tQpW0s3oY]
+[Video](https://www.youtube.com/watch?v=t2tQpW0s3oY)
