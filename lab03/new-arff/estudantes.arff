@@ -1,0 +1,77 @@
+% Arquivo ARFF para classificação de desempenho de estudantes
+% Este arquivo contém dados fictícios sobre hábitos de estudo e desempenho acadêmico
+@RELATION desempenho_estudantes
+
+% Atributos que descrevem os estudantes
+@ATTRIBUTE idade NUMERIC
+@ATTRIBUTE horas_estudo_semana NUMERIC
+@ATTRIBUTE frequencia_aulas {baixa, media, alta}
+@ATTRIBUTE uso_biblioteca {sim, nao}
+@ATTRIBUTE participacao_grupos_estudo {sim, nao}
+@ATTRIBUTE tempo_sono_diario NUMERIC
+@ATTRIBUTE uso_internet_estudo {baixo, medio, alto}
+@ATTRIBUTE trabalha {sim, nao}
+@ATTRIBUTE atividade_fisica_semana NUMERIC
+@ATTRIBUTE aprovado {sim, nao}
+
+@DATA
+% Dados fictícios de 60 estudantes
+18,10,alta,sim,sim,7,alto,nao,3,sim
+19,15,alta,sim,sim,8,alto,nao,5,sim
+20,12,alta,sim,sim,7.5,medio,nao,4,sim
+21,8,media,sim,sim,6,medio,sim,2,sim
+19,5,media,nao,nao,6,baixo,sim,1,nao
+22,3,baixa,nao,nao,5,baixo,sim,0,nao
+18,7,media,sim,nao,7,medio,nao,3,sim
+20,9,alta,sim,sim,8,alto,nao,4,sim
+21,4,baixa,nao,nao,6,baixo,sim,1,nao
+19,11,alta,sim,sim,7,medio,nao,2,sim
+23,6,media,sim,nao,6.5,medio,sim,3,sim
+18,2,baixa,nao,nao,5,baixo,sim,0,nao
+20,13,alta,sim,sim,8,alto,nao,5,sim
+22,8,media,sim,sim,7,medio,sim,2,sim
+19,5,baixa,nao,nao,6,baixo,sim,1,nao
+21,14,alta,sim,sim,7.5,alto,nao,4,sim
+20,10,alta,sim,sim,8,medio,nao,3,sim
+18,6,media,sim,nao,7,medio,sim,2,sim
+19,3,baixa,nao,nao,5.5,baixo,sim,1,nao
+22,12,alta,sim,sim,7,alto,nao,4,sim
+21,9,media,sim,sim,6.5,medio,sim,3,sim
+20,4,baixa,nao,nao,6,baixo,sim,0,nao
+19,11,alta,sim,sim,7.5,alto,nao,5,sim
+18,8,media,sim,nao,7,medio,nao,2,sim
+23,5,baixa,nao,nao,6,baixo,sim,1,nao
+20,13,alta,sim,sim,8,alto,nao,4,sim
+21,10,alta,sim,sim,7,medio,nao,3,sim
+19,7,media,sim,nao,6.5,medio,sim,2,sim
+22,3,baixa,nao,nao,5.5,baixo,sim,0,nao
+18,12,alta,sim,sim,8,alto,nao,5,sim
+24,16,alta,sim,sim,7.5,alto,nao,6,sim
+19,14,alta,sim,sim,8,alto,nao,4,sim
+20,11,alta,sim,sim,7,medio,nao,3,sim
+22,9,media,sim,sim,6.5,medio,sim,2,sim
+18,4,media,nao,nao,5.5,baixo,sim,1,nao
+23,2,baixa,nao,nao,5,baixo,sim,0,nao
+19,8,media,sim,nao,7.5,medio,nao,3,sim
+21,10,alta,sim,sim,8,alto,nao,5,sim
+20,3,baixa,nao,nao,5.5,baixo,sim,1,nao
+18,12,alta,sim,sim,7.5,medio,nao,4,sim
+24,7,media,sim,nao,6,medio,sim,2,sim
+19,1,baixa,nao,nao,4.5,baixo,sim,0,nao
+21,15,alta,sim,sim,8,alto,nao,6,sim
+23,9,media,sim,sim,7,medio,sim,3,sim
+20,4,baixa,nao,nao,5.5,baixo,sim,1,nao
+18,13,alta,sim,sim,8,alto,nao,5,sim
+22,11,alta,sim,sim,7.5,medio,nao,4,sim
+19,7,media,sim,nao,6.5,medio,sim,2,sim
+21,2,baixa,nao,nao,5,baixo,sim,0,nao
+23,14,alta,sim,sim,8,alto,nao,5,sim
+20,8,media,sim,sim,7,medio,sim,3,sim
+18,3,baixa,nao,nao,5.5,baixo,sim,1,nao
+22,12,alta,sim,sim,7.5,alto,nao,4,sim
+19,9,media,sim,nao,6.5,medio,nao,3,sim
+24,4,baixa,nao,nao,5,baixo,sim,1,nao
+21,15,alta,sim,sim,8,alto,nao,6,sim
+20,10,alta,sim,sim,7,medio,nao,4,sim
+18,6,media,sim,nao,6.5,medio,sim,2,sim
+23,2,baixa,nao,nao,5,baixo,sim,0,nao 
