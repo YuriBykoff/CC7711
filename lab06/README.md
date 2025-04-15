@@ -12,10 +12,8 @@ O script é configurado para processar as seguintes imagens localizadas no diret
 
 1.  **`GIRAFA.jpeg`**
     ![Girafa](final/girafa.png)
-    
 2.  **`SATELITE.jpeg`**
     ![Satelite](final/satelite.png)
-
 3.  **`AVIAO.jpeg`**
     ![Aviao](final/aviao.png)
 
