@@ -10,9 +10,12 @@ O objetivo principal do script `main.py` é carregar imagens específicas (`GIRA
 
 O script é configurado para processar as seguintes imagens localizadas no diretório `figs/`:
 
-1.  `GIRAFA.jpeg`
-2.  `SATELITE.jpeg`
-3.  `AVIAO.jpeg`
+1.  **`GIRAFA.jpeg`**
+    ![Girafa](figs/GIRAFA.jpeg)
+2.  **`SATELITE.jpeg`**
+    ![Satelite](figs/SATELITE.jpeg)
+3.  **`AVIAO.jpeg`**
+    ![Aviao](figs/AVIAO.jpeg)
 
 ## Abordagens de Processamento
 
